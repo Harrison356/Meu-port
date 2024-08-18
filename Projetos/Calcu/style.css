@@ -32,6 +32,7 @@
     margin: 3px;
     background-color: rgb(31,31,31);
     border: none;
+    border-radius: 10px;
     color: #fff;
 
 }
@@ -50,4 +51,5 @@ h1{
     font-size: 25px;
     text-align: right;
     padding: 5px;
+    border-radius: 10px;
 }
