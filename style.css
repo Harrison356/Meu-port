@@ -5,8 +5,26 @@
 }
 
 a{
+    position: relative;
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+a:hover:after{
+    width: 100%;
 }
 
 body{
@@ -74,7 +92,7 @@ li.nav-link{
 }
 
 .main h2{
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .main p{
@@ -104,10 +122,14 @@ button:hover{
     display: flex;
     margin-top: 5vh;
     position: relative;
+    
 }
 
 .image-wrapper img{
-    max-width: 500px;
+    height: 400px;
+    max-width: 400px;
+    border-radius: 250px;
+    border: solid rgba(255, 255, 255, 0.363);
 }
 
 .attrebute{
@@ -140,6 +162,7 @@ button:hover{
         font-size: 13px;
     }
     .image-wrapper img{
-        max-width: 400px;
+        max-width: 500px;
+        border-radius: 200px;
     }
 }

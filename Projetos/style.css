@@ -1,0 +1,90 @@
+body {
+    top: 50%;
+    left: 50%;
+    background-color: rgb(204, 108, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #e9ff99;
+    background-image:
+        radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 9%, hsla(76, 65%, 63%, 1) 0px, transparent 50%);
+    min-height: 100vh;
+
+}
+.nav{
+    text-align: center;
+    border: 3px solid #ffffff1d;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.52);
+    margin: 1.5% 6% 10% 6%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-right: 75%;
+    padding: 20px 20px 40px 20px;
+    
+    border-radius: 10px;
+    border: solid;
+    flex-grow: 1;
+    flex-basis: 200;
+
+}
+
+
+/* icons */
+.fa-js{
+    font-size: 200%;
+    color: #fffb00;
+}
+.fa-html5{
+    font-size: 200%;
+    color: rgb(255, 165, 0);
+}
+.fa-css3-alt{
+    font-size: 200%;
+    color: #85a4da;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1 0 5rem;
+}
+
+button:hover{
+    border-color: #2668db;
+    background-color: #2668db;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1075px) {
+    .content{
+        flex-direction: column;
+    }
+    
+}
