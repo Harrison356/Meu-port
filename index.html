@@ -4,41 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>Portfolio | Harrison Santos</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
         <div class="glass-container">
+
+            <!-- NAVBAR -->
             <nav class="navbar">
                 <div class="logo">Harrison Santos</div>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="https://www.instagram.com/hsantos_357/" target="_parent">Instagram</a></li>
-                    <li class="nav-link"><a href="https://github.com/Harrison356" target="_parent">Github</a></li>
-                    <li class="nav-link"><a href="https://www.linkedin.com/in/harrison-santos-3b5a03273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_parent">LinkedIn</a></li>
-                    <li class="nav-link"><a href="Projetos/projetos.html" target="_parent">Projetos</a></li>
+
+                <!-- BOTÃO HAMBÚRGUER -->
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="https://www.instagram.com/harrisonsantos_/">Instagram</a></li>
+                    <li><a href="https://github.com/Harrison356">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/harrison-santos-3b5a03273">LinkedIn</a></li>
+                    <li><a href="/Projetos/projetos.html">Projetos</a></li>
                 </ul>
             </nav>
-            <div class="content">
-                <div class="main">
-                    <h2>Olá! 👋,<br>Sou Designer e Programador Front-end, Analista e Desenvolvimento de Sistemas</h2>
-                    <p>Meu nome é Harrison Santos de Lima<br>e aqui embaixo está meu currículo</p>
 
-                    <button onclick="window.open('https://www.canva.com/design/DAGVAlvOkPM/gaY7A8VZOb7z3l48ozDj_w/edit')" target="_blank">Currículo</button>
+            <!-- CONTEÚDO -->
+            <div class="content">
+                <div class="main fade-in">
+                    <h2>Olá! 👋<br>Sou Designer e Programador Front-end</h2>
+                    <p>Meu nome é Harrison Santos de Lima<br>e aqui está meu currículo</p>
+
+                    <button onclick="window.open('https://www.canva.com/design/DAGVAlvOkPM/gaY7A8VZOb7z3l48ozDj_w/edit?utm_content=DAGVAlvOkPM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')">
+                        Currículo
+                    </button>
                 </div>
-                <div class="image-wrapper">
-                    <img src="img/IMG_1469.jpeg" alt="Foto de Harrison Santos">
-                    <div class="attribute">
-                        <a href="https://www.freepik.com/free-psd/marketing-concept-with-woman-rocketship_33417710.htm#page=2&query=3d%20illustration&position=32&from_view=search&track=ais"></a>
-                    </div>
+
+                <div class="image-wrapper fade-in delay">
+                    <img src="img/IMG_1469.jpeg" alt="Foto">
                 </div>
             </div>
+
         </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
